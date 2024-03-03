@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { signIn, signOut, useSession, getProviders } from "next-auth/react";
-import logo from "@assets/Images/logo.png";
+import logo from "../assets/images/logo.png";
 const Nav = () => {
   const { data: session } = useSession();
 
